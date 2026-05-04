@@ -12,7 +12,7 @@
 
 Установить docker 
 ```bash
-source <(curl https://raw.githubusercontent.com/alec-chicherini/development-scripts/refs/heads/main/docker/install_docker.sh)
+source <(curl https://raw.githubusercontent.com/lex-chicherini/development-scripts/refs/heads/main/docker/install_docker.sh)
 ```
 <!--Версии-->
 ## Версии
@@ -24,7 +24,7 @@ source <(curl https://raw.githubusercontent.com/alec-chicherini/development-scri
 ## Собрать latest клиент и deb пакет для linux ubuntu
 Собрать в docker 
 ```bash
-git clone https://github.com/alec-chicherini/wordle-client-qt.git
+git clone https://github.com/lex-chicherini/wordle-client-qt.git
 cd wordle-client-qt
 git checkout 25.02
 #git checkout 25.03
@@ -42,7 +42,7 @@ docker rm "$idTempContainer"
 ## Собрать latest клиент в wasm для использования на веб сервере
 Собрать в docker и запустить python http.server для дебага
 ```bash
-git clone https://github.com/alec-chicherini/wordle-client-qt.git
+git clone https://github.com/lex-chicherini/wordle-client-qt.git
 cd wordle-client-qt
 #git checkout 25.02
 #git checkout 25.03
